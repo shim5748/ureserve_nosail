@@ -1,0 +1,10 @@
+<html>
+    <head>
+        @livewireStyles
+    </head>
+    <body>
+        livewireテスト
+        @livewire('register')
+        @livewireScripts
+    </body>
+</html>
