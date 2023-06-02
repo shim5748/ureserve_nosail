@@ -61,9 +61,11 @@
                                 @endif
 
                             </div>
+                            @if($event->eventDate >= \Carbon\Carbon::today()->format('Y年m月d日'))
                             <x-jet-button class="ml-4">
                                 編集する
                             </x-jet-button>
+                            @endif
 
                         </div>
 
